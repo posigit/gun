@@ -1,20 +1,36 @@
-import { Button } from "@/components/ui/button"
-import { X, Info, RotateCcw, CreditCard, Shield, HelpCircle } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import {
+  X,
+  Info,
+  RotateCcw,
+  CreditCard,
+  Shield,
+  HelpCircle,
+  ExternalLink,
+} from "lucide-react";
 
 export default function Component() {
   return (
     <div className="max-w-sm mx-auto bg-white min-h-screen overflow-auto">
-
-
       {/* Header */}
       <div className="bg-slate-800 text-white p-4 relative">
         <div className="flex items-start justify-between mb-2">
-          <X className="w-6 h-6 mt-1" />
-          <Info className="w-6 h-6 mt-1" />
+          <X className="w-6 h-6 mt-1 cursor-pointer hover:text-gray-300 transition-colors" />
+          <div className="flex items-center gap-2">
+            <span className="text-xs bg-green-500 text-white px-2 py-0.5 rounded-full">
+              Netlify
+            </span>
+            <Info className="w-6 h-6 mt-1 cursor-pointer hover:text-gray-300 transition-colors" />
+          </div>
         </div>
         <div className="text-center">
-          <h1 className="text-lg font-semibold mb-1">2025 NBA Playoffs - Best of 7: Pacers vs Knicks</h1>
-          <p className="text-sm text-gray-300">8:00 PM ET | Gainbridge Fieldhouse,<br/> Indianapolis, IN</p>
+          <h1 className="text-lg font-semibold mb-1">
+            2025 NBA Playoffs - Best of 7: Pacers vs Knicks
+          </h1>
+          <p className="text-sm text-gray-300">
+            8:00 PM ET | Gainbridge Fieldhouse,
+            <br /> Indianapolis, IN
+          </p>
         </div>
       </div>
 
@@ -34,7 +50,12 @@ export default function Component() {
           {/* Mock QR Code */}
           <div className="w-24 h-24 grid grid-cols-8 gap-px">
             {Array.from({ length: 64 }, (_, i) => (
-              <div key={i} className={`w-2 h-2 ${Math.random() > 0.5 ? "bg-black" : "bg-white"}`} />
+              <div
+                key={i}
+                className={`w-2 h-2 ${
+                  Math.random() > 0.5 ? "bg-black" : "bg-white"
+                }`}
+              />
             ))}
           </div>
           <div className="absolute top-2 right-2">
@@ -42,7 +63,9 @@ export default function Component() {
           </div>
         </div>
 
-        <h2 className="text-lg font-medium text-gray-800 mb-2">Rosemary Peterson</h2>
+        <h2 className="text-lg font-medium text-gray-800 mb-2">
+          Rosemary Peterson
+        </h2>
         <div className="mb-4">
           <span className="text-2xl font-bold text-blue-600">Ticketmaster</span>
         </div>
@@ -65,33 +88,36 @@ export default function Component() {
       {/* First Ticket */}
       <div className="px-4 mb-8">
         <div className="flex justify-between items-center mb-4">
-          <span className="text-gray-600 text-sm">HALF SEASON MEMBER</span>
-          <span className="text-gray-600 text-sm">Admissions</span>
+          {/* <span className="text-gray-600 text-sm">HALF SEASON MEMBER</span>
+          <span className="text-gray-600 text-sm">Admissions</span> */}
         </div>
 
         <div className="flex justify-between items-center mb-4">
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEC</div>
-            <div className="text-3xl font-bold text-gray-800">TI-7</div>
+            <div className="text-3xl font-bold text-gray-800">210</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">ROW</div>
-            <div className="text-3xl font-bold text-gray-800">1</div>
+            <div className="text-3xl font-bold text-gray-800">9</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">1</div>
+            <div className="text-3xl font-bold text-gray-800">7</div>
           </div>
         </div>
 
-        <div className="text-gray-600 text-sm mb-6">CLUB TI, HALF SEASON MEMBER</div>
+        {/* <div className="text-gray-600 text-sm mb-6">CLUB TI, HALF SEASON MEMBER</div> */}
 
         <hr className="border-gray-200 mb-4" />
 
         <div className="text-center text-gray-500 text-sm">
-          <p className="mb-2">Seat Locator will load once your ticket is scanned.</p>
+          <p className="mb-2">
+            Seat Locator will load once your ticket is scanned.
+          </p>
           <p>
-            Not seeing it yet? <span className="text-blue-500">Tap to retry</span>
+            Not seeing it yet?{" "}
+            <span className="text-blue-500">Tap to retry</span>
           </p>
         </div>
       </div>
@@ -99,33 +125,36 @@ export default function Component() {
       {/* Second Ticket */}
       <div className="px-4 mb-8">
         <div className="flex justify-between items-center mb-4">
-          <span className="text-gray-600 text-sm">HALF SEASON MEMBER</span>
-          <span className="text-gray-600 text-sm">Admissions</span>
+          {/* <span className="text-gray-600 text-sm">HALF SEASON MEMBER</span>
+          <span className="text-gray-600 text-sm">Admissions</span> */}
         </div>
 
         <div className="flex justify-between items-center mb-4">
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEC</div>
-            <div className="text-3xl font-bold text-gray-800">TI-7</div>
+            <div className="text-3xl font-bold text-gray-800">210</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">ROW</div>
-            <div className="text-3xl font-bold text-gray-800">1</div>
+            <div className="text-3xl font-bold text-gray-800">9</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">2</div>
+            <div className="text-3xl font-bold text-gray-800">8</div>
           </div>
         </div>
 
-        <div className="text-gray-600 text-sm mb-6">CLUB TI, HALF SEASON MEMBER</div>
+        {/* <div className="text-gray-600 text-sm mb-6">CLUB TI, HALF SEASON MEMBER</div> */}
 
         <hr className="border-gray-200 mb-4" />
 
         <div className="text-center text-gray-500 text-sm">
-          <p className="mb-2">Seat Locator will load once your ticket is scanned.</p>
+          <p className="mb-2">
+            Seat Locator will load once your ticket is scanned.
+          </p>
           <p>
-            Not seeing it yet? <span className="text-blue-500">Tap to retry</span>
+            Not seeing it yet?{" "}
+            <span className="text-blue-500">Tap to retry</span>
           </p>
         </div>
       </div>
@@ -167,7 +196,7 @@ export default function Component() {
 
       {/* Additional Content */}
       <div className="px-4 mb-8">
-        <div className="bg-gray-50 rounded-lg p-4 mb-6">
+        {/* <div className="bg-gray-50 rounded-lg p-4 mb-6">
           <h3 className="font-semibold text-gray-800 mb-2">Club Level Benefits</h3>
           <ul className="text-sm text-gray-600 space-y-1">
             <li>• Premium entrance and express security</li>
@@ -176,7 +205,7 @@ export default function Component() {
             <li>• Climate-controlled concourse</li>
             <li>• Premium restrooms</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="bg-blue-50 rounded-lg p-4 mb-6">
           <h3 className="font-semibold text-gray-800 mb-2">Game Information</h3>
@@ -191,13 +220,16 @@ export default function Component() {
               <span className="font-medium">Tip-off:</span> 8:00 PM ET
             </p>
             <p>
-              <span className="font-medium">Parking:</span> Available on-site and nearby lots
+              <span className="font-medium">Parking:</span> Available on-site
+              and nearby lots
             </p>
           </div>
         </div>
 
         <div className="bg-yellow-50 rounded-lg p-4 mb-6">
-          <h3 className="font-semibold text-gray-800 mb-2">Important Reminders</h3>
+          <h3 className="font-semibold text-gray-800 mb-2">
+            Important Reminders
+          </h3>
           <ul className="text-sm text-gray-600 space-y-1">
             <li>• Arrive early for security screening</li>
             <li>• Mobile tickets required - no screenshots</li>
@@ -258,5 +290,5 @@ export default function Component() {
         <div className="w-32 h-1 bg-black rounded-full"></div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,5 +1,9 @@
 # Next.js Project
 
+## Deployment Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-NETLIFY-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
+
 ## Deploying to Netlify
 
 ### Option 1: Deploy via Netlify UI
@@ -38,14 +42,31 @@
    netlify deploy --prod
    ```
 
-## Local Development
+## Development
+
+### Local Development
 
 ```
 npm run dev
 ```
 
-## Build
+### Build
 
 ```
 npm run build
 ```
+
+### Start Production Server
+
+```
+npm start
+```
+
+## Features
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Radix UI Components
+- Netlify Deployment
