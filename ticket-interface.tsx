@@ -58,13 +58,13 @@ export default function Component() {
           </div>
         </div>
 
-        <h2 className="text-lg font-medium text-gray-800 mb-2">
+        <h2 className="text-lg font-medium text-gray-600 mb-2">
           Stephen Parker
         </h2>
         <div className="mb-4">
           <span className="text-2xl font-bold text-blue-600">Ticketmaster</span>
         </div>
-        <div className="text-gray-500 text-sm">
+        <div className="text-gray-400 text-sm">
           <p>Screenshots won't work,</p>
           <p>your code refreshes every 60 seconds.</p>
         </div>
@@ -83,22 +83,22 @@ export default function Component() {
       {/* First Ticket */}
       <div className="px-4 mb-8">
         <div className="flex justify-between items-center mb-4">
-          {/* <span className="text-gray-600 text-sm">HALF SEASON MEMBER</span>
-          <span className="text-gray-600 text-sm">Admissions</span> */}
+          <span className="text-gray-600 text-sm">Standard</span>
+          <span className="text-gray-600 text-sm">Admissions</span>
         </div>
 
         <div className="flex justify-between items-center mb-4">
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEC</div>
-            <div className="text-3xl font-bold text-gray-800">210</div>
+            <div className="text-3xl font-bold text-gray-700">210</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">ROW</div>
-            <div className="text-3xl font-bold text-gray-800">9</div>
+            <div className="text-3xl font-bold text-gray-700">9</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">7</div>
+            <div className="text-3xl font-bold text-gray-700">7</div>
           </div>
         </div>
 
@@ -120,22 +120,22 @@ export default function Component() {
       {/* Second Ticket */}
       <div className="px-4 mb-8">
         <div className="flex justify-between items-center mb-4">
-          {/* <span className="text-gray-600 text-sm">HALF SEASON MEMBER</span>
-          <span className="text-gray-600 text-sm">Admissions</span> */}
+          <span className="text-gray-600 text-sm">Standard</span>
+          <span className="text-gray-600 text-sm">Admissions</span>
         </div>
 
         <div className="flex justify-between items-center mb-4">
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEC</div>
-            <div className="text-3xl font-bold text-gray-800">210</div>
+            <div className="text-3xl font-bold text-gray-700">210</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">ROW</div>
-            <div className="text-3xl font-bold text-gray-800">9</div>
+            <div className="text-3xl font-bold text-gray-700">9</div>
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">8</div>
+            <div className="text-3xl font-bold text-gray-700">8</div>
           </div>
         </div>
 
