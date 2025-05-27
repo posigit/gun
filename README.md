@@ -2,7 +2,11 @@
 
 ## Deployment Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-NETLIFY-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/posigit-gun/deploy-status)](https://app.netlify.com/sites/posigit-gun/deploys)
+
+## Live Demo
+
+Check out the live demo at [https://posigit-gun.netlify.app](https://posigit-gun.netlify.app)
 
 ## Deploying to Netlify
 
@@ -70,3 +74,5 @@ npm start
 - Tailwind CSS
 - Radix UI Components
 - Netlify Deployment
+- Responsive UI Design
+- Mobile-friendly Interface

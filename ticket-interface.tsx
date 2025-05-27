@@ -64,7 +64,7 @@ export default function Component() {
         </div>
 
         <h2 className="text-lg font-medium text-gray-800 mb-2">
-          Rosemary Peterson
+          Stephen Parker
         </h2>
         <div className="mb-4">
           <span className="text-2xl font-bold text-blue-600">Ticketmaster</span>
@@ -103,7 +103,7 @@ export default function Component() {
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">7</div>
+            <div className="text-3xl font-bold text-gray-800">7-8</div>
           </div>
         </div>
 
@@ -140,7 +140,7 @@ export default function Component() {
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">8</div>
+            <div className="text-3xl font-bold text-gray-800">8-9</div>
           </div>
         </div>
 
