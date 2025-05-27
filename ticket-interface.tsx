@@ -16,12 +16,7 @@ export default function Component() {
       <div className="bg-slate-800 text-white p-4 relative">
         <div className="flex items-start justify-between mb-2">
           <X className="w-6 h-6 mt-1 cursor-pointer hover:text-gray-300 transition-colors" />
-          <div className="flex items-center gap-2">
-            <span className="text-xs bg-green-500 text-white px-2 py-0.5 rounded-full">
-              Netlify
-            </span>
-            <Info className="w-6 h-6 mt-1 cursor-pointer hover:text-gray-300 transition-colors" />
-          </div>
+          <Info className="w-6 h-6 mt-1 cursor-pointer hover:text-gray-300 transition-colors" />
         </div>
         <div className="text-center">
           <h1 className="text-lg font-semibold mb-1">
@@ -103,7 +98,7 @@ export default function Component() {
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">7-8</div>
+            <div className="text-3xl font-bold text-gray-800">7</div>
           </div>
         </div>
 
@@ -140,7 +135,7 @@ export default function Component() {
           </div>
           <div className="text-center">
             <div className="text-gray-500 text-sm">SEAT</div>
-            <div className="text-3xl font-bold text-gray-800">8-9</div>
+            <div className="text-3xl font-bold text-gray-800">8</div>
           </div>
         </div>
 

@@ -1,6 +1,12 @@
 {
-  "name": "my-v0-project",
+  "name": "next-gun-app",
   "version": "0.1.0",
+  "description": "A Next.js application with modern UI deployed on Netlify",
+  "author": "posigit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/posigit/gun"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",

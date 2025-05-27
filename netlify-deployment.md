@@ -52,6 +52,25 @@ Deployment can be done through:
      netlify deploy --prod
      ```
 
+## Next.js Specific Considerations
+
+When deploying Next.js to Netlify, keep in mind:
+
+1. **Image Optimization**
+   - Next.js image optimization may need configuration
+   - We've set `unoptimized: true` in next.config.mjs
+
+2. **API Routes**
+   - API routes are automatically handled as Netlify functions
+   - Each API route becomes a serverless function
+
+3. **SSR Support**
+   - Server-side rendering is supported through Netlify Edge Functions
+   - The @netlify/plugin-nextjs handles this automatically
+
+4. **Environment Variables**
+   - Next.js requires environment variables to be prefixed with `NEXT_PUBLIC_` to be exposed to the browser
+
 ## Troubleshooting
 
 If you encounter build issues:
@@ -59,6 +78,7 @@ If you encounter build issues:
 1. Check for TypeScript errors
 2. Verify Next.js compatibility with Netlify
 3. Ensure all dependencies are correctly installed
+4. Examine build logs in the Netlify dashboard
 
 ## Continuous Deployment
 
@@ -68,3 +88,17 @@ Continuous deployment is enabled by default. Each push to the main branch will t
 
 Any required environment variables should be set in the Netlify UI under:
 Site settings > Build & deploy > Environment variables
+
+## Performance Optimization
+
+1. **Build Caching**
+   - Netlify automatically caches build dependencies
+   - You can optimize build times by using the Netlify build cache
+
+2. **Edge Functions**
+   - Consider using Netlify Edge Functions for performance-critical routes
+
+## Resources
+
+- [Netlify Next.js Plugin Documentation](https://github.com/netlify/netlify-plugin-nextjs)
+- [Next.js on Netlify Documentation](https://docs.netlify.com/frameworks/next-js/overview/)
